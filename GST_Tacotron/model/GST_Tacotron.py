@@ -1,10 +1,10 @@
 import torch
 from torch import nn
 
-from GST import GSTLayer
-from Encoder import Encoder
-from Decoder import Decoder
-from Post_Net import Postnet
+from model.GST import GSTLayer
+from model.Encoder import Encoder
+from model.Decoder import Decoder
+from model.Post_Net import Postnet
 
 class GST_Tacotron(nn.Module):
     def __init__(self
